@@ -3,67 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>John Doe's Resume</title>
-    <h1>John Doe</h1>
-    <img src="assets/avatars/fake_person.jpg" alt="my portrait" />
-    <h1>About Me</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos omnis
-      dolorem doloribus eius sunt esse tempora? Amet cumque modi impedit, sequi
-      tenetur nulla praesentium unde nam dolore harum maxime debitis
-      voluptatibus aut suscipit illo libero sit eius. Exercitationem, excepturi
-      perspiciatis nam qui quasi minus fugiat a illo dignissimos suscipit?
+    <title>Clayton Cripe's resume</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/scripts.js" defer></script>
+  </head>
+  <body class="fancy-body">
+    <h1 id="candidate-name">Clayton Cripe</h1>
+    <h2 id="candidate-desired-role">Talented Frontend developer</h2>
+    <img
+      id="candidate-image"
+      src="./assets/avatars/fake_person.jpg"
+      alt="Clayton Cripe's resume"
+    />
+    <h2 id="about-me">About Me"</h2>
+    <p class="candidate-bio">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
     </p>
-    <h2>My Skills</h2>
-    <ol>
+    <h2 id="skills">My Skills</h2>
+    <ol id="skills-list">
       <li>HTML</li>
       <li>CSS</li>
       <li>JavaScript</li>
       <li>TypeScript</li>
-      <li>ReactJS</li>
+      <li>React</li>
       <li>NodeJS</li>
     </ol>
-    <h2>My Hobbies</h2>
-    <ul>
+    <h2 id="hobbies">My Hobbies</h2>
+    <ul id="hobbies-list">
       <li>Cross stitching</li>
       <li>Knitting</li>
       <li>Shuffling around</li>
       <li>Spiting at the ceiling</li>
-      <li>Knitting</li>
-      <li>Shuffling around</li>
-      <li>Spiting at the ceiling</li>
     </ul>
-
-    <h2>Contact Me</h2>
-    <table>
-      <tr>
-        <th>Discord</th>
-        <th>charlesstauffer_80680</th>
-      </tr>
-      <tr>
-        <th>LinkedIn</th>
-        <th>
-          <a
-            href="https://www.linkedin.com/in/charles-stauffer83/"
-            target="_blank"
-          >
-            User
-          </a>
-        </th>
-      </tr>
-      <tr>
-        <th>Email</th>
-        <th>
-          <a href="mailto:pyguycharles@gmail.com">pyguycharles@gmail.com</a>
-        </th>
-      </tr>
-      <tr>
-        <th>GitHub</th>
-        <th>
-          <a href="https://github.com/CS83083" target="_blank">CS83083</a>
-        </th>
-      </tr>
+    <h2 id="contacts">Contact Me</h2>
+    <table class="contacts-table">
+      <tbody>
+        <tr>
+          <th scope="row">Discord</th>
+          <td>charlesstauffer_80680</td>
+        </tr>
+        <tr>
+          <th scope="row">LinkedIn</th>
+          <td>
+            <a
+              href="https://www.linkedin.com/in/charles-stauffer83/"
+              target="_blank"
+              >Charles Stauffer</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Email</th>
+          <td>
+            <a href="mailto:pyguycharles@gmail.com">pyguycharles@gmail.com</a>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Github</th>
+          <td>
+            <a href="https://github.com/CS83083" target="_blank">Github</a>
+          </td>
+        </tr>
+      </tbody>
     </table>
-  </head>
-  <body></body>
+  </body>
 </html>
